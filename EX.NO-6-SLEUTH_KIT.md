@@ -60,9 +60,8 @@ cd "C:\Program Files (x86)\sleuthkit-4.14.0-win32\bin"
 
 ### 🔍 Identify File System Type
 
-```bash
-.\fsstat.exe -o 63 "C:\Users\Sai Kumar\Downloads\4Dell Latitude CPi.E01"
-```
+<img width="670" height="28" alt="image" src="https://github.com/user-attachments/assets/4f70ce98-f568-4675-a07d-8bce9cd1aac2" />
+
 <img width="1481" height="736" alt="image" src="https://github.com/user-attachments/assets/bc9239f3-5026-4e4e-b02c-edf6883d996f" />
 💡 *Displays key details about the file system type and structure.*
 
@@ -70,10 +69,8 @@ cd "C:\Program Files (x86)\sleuthkit-4.14.0-win32\bin"
 
 ### 🧩 View Partition Layout
 
-```bash
-.\mmls.exe "C:\Users\Sai Kumar\Downloads\4Dell Latitude CPi.E01"
+<img width="758" height="43" alt="{83ADE046-B594-4BD0-B0D1-7D839AAE7905}" src="https://github.com/user-attachments/assets/56d6b105-4b1f-4b25-a2b0-fc98d6eaeef7" />
 
-```
 <img width="1481" height="736" alt="image" src="https://github.com/user-attachments/assets/fb1a6c58-85ed-4a9b-b69f-59b42ac320a9" />
 ➡️ *Lists all partitions and their respective start/end addresses.*
 
@@ -81,10 +78,8 @@ cd "C:\Program Files (x86)\sleuthkit-4.14.0-win32\bin"
 
 ### 📂 List Files and Directories
 
-```bash
-.\fls.exe -o 63 "C:\Users\Sai Kumar\Downloads\4Dell Latitude CPi.E01"
+<img width="800" height="44" alt="{D918A9A5-822D-47FF-9F81-6E780DDA5BF9}" src="https://github.com/user-attachments/assets/67450bf9-03d6-4de7-9805-be9954bdc9df" />
 
-```
 <img width="1434" height="752" alt="image" src="https://github.com/user-attachments/assets/aeef93d3-836c-4669-8382-8225f400184a" />
 🔸 *Recursively lists files and folders with their inode details.*
 
@@ -92,9 +87,11 @@ cd "C:\Program Files (x86)\sleuthkit-4.14.0-win32\bin"
 
 ### 🗃️ Recover Deleted Files
 
-```bash
-.\icat.exe -o 63 "C:\Users\Sai Kumar\Downloads\4Dell Latitude CPi.E01" 119 > "C:\Users\Sai Kumar\Downloads\BOOTLOG_recovered.TXT"
-```
+<img width="912" height="51" alt="{34E95F97-E8EC-4641-AF25-5DD80EBA6BE4}" src="https://github.com/user-attachments/assets/e36467f2-f108-4135-886a-693393cf8044" /><img width="572" height="32" alt="{F358B18F-8CE0-46EC-9735-367FC74ED38D}" src="https://github.com/user-attachments/assets/c2a75b6f-669e-418e-a682-f45909095c50" />
+
+<img width="1907" height="298" alt="{07F2406F-6EEE-4BBC-BD95-A85584865323}" src="https://github.com/user-attachments/assets/442c2a95-c324-4c42-8a58-0c2fa6655631" />
+
+
 💾 *Recovers a deleted or existing file by its inode number.*
 
 ---
@@ -102,10 +99,9 @@ cd "C:\Program Files (x86)\sleuthkit-4.14.0-win32\bin"
 ## 🕰️ **Step 5: Metadata Analysis**
 
 To uncover file history and access details, view the file’s metadata.
+<img width="901" height="40" alt="{8BB42C2E-6AC0-4ED6-A165-89D11F0BE7EF}" src="https://github.com/user-attachments/assets/02e0e0ef-12a7-413d-b4a9-ba5f4de0575f" /><img width="584" height="36" alt="{E7C73E8B-9084-489D-8D32-BF10AD812055}" src="https://github.com/user-attachments/assets/35974be6-b314-4b54-98b6-bbb89b269993" />
 
-```bash
-.\istat.exe -o 63 "C:\Users\Sai Kumar\Downloads\4Dell Latitude CPi.E01" 119 > "C:\Users\Sai Kumar\Downloads\BOOTLOG_recovered.TXT" 
-```
+
 🧠  
 ![WhatsApp Image 2025-10-26 at 22 58 58_65998012](https://github.com/user-attachments/assets/48b51664-732c-44ae-98d5-1c27a22069e3)
 
